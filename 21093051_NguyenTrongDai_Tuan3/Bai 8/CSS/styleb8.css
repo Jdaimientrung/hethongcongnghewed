@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+.container{
+    background-color:rgba(186, 198, 202, 0.692);
+    width: 90%;
+    margin-top: 50px;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 30px 3px;
+}
+.abc{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+h1{
+    margin-left: 10px;
+}
+.content{
+    width: 90%;
+    height: 150px;
+    border-style:solid;
+    border-width: 8px;
+    border-color: #85C226 #F7C200 #4493A0 #DF127B;
+    margin-top: 30px;
+    margin-left: 80px;
+
+}

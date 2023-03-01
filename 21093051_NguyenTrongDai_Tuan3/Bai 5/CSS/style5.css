@@ -1,0 +1,5 @@
+.example {
+    background-image: url(../img/hinh1.jpg), url(../img/hinh2.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat,no-repeat;
+}

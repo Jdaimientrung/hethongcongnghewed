@@ -1,0 +1,32 @@
+*{
+    margin: auto;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.table{
+    width: 500px;
+    height: 270px;
+    border: 1px solid rgb(172, 159, 159);
+    box-shadow: 1px 1px 10px  7px rgb(145, 137, 137);
+}
+tr {
+    border: 1px solid #AB7D7D;
+}
+
+th {
+    border: 1px solid #AB7D7D;
+}
+
+table {
+    font-family: "Trebuchet MS", "Arial", "Helvetica", "sans-serif";
+    margin-top: 10px;
+    border: 1px solid #AB7D7D;
+    border-collapse: collapse;
+    
+}
+.chan {
+    background-color: #CCCCCC;
+}
+.le {
+    background-color: white;
+}
