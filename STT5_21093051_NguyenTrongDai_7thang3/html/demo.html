@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px auto;
+        }
+        .wrapper{
+            height: 700px;
+            width: 1089px;
+            background-color: rgb(227, 222, 216);
+        }
+        header{
+            height: 150px;
+            width: 1089px;
+            background-color: #294279;
+            position: relative;
+        }
+        .logo:first-child{
+            position: absolute;
+            top: 50px;
+            left: 30px;
+        }
+        .ten:nth-child(2){
+            position: absolute;
+            top: 40px;
+            left: 150px;
+            font-size:20px;
+            color: white;
+        }
+        .timkiem:nth-child(3){
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            
+        }
+         .top-menu li{
+        
+            position: absolute;
+            height: 40px;
+            width: 100px;
+            background-color: rgb(133, 133, 212);
+            list-style: none;
+            line-height: 45px;
+            text-indent: 20px;
+            
+        } 
+        li a{
+            text-decoration: none;
+            color: rgb(251, 250, 252);
+            text-align: center;
+            
+        }
+        .top-menu li:first-child{
+    
+            width: 75px;
+            top: 100px;
+            left: 515px;
+        }
+        .top-menu li:nth-child(2){
+            top: 100px;
+            left: 600px;
+            width: 100px;
+        }
+        .top-menu li:nth-child(3){
+            top: 100px;
+            left: 710px;
+            width: 110px;
+        }
+        .top-menu li:nth-child(4){
+            top: 100px;
+            left: 830px;
+            width: 135px;
+        }
+        .top-menu li:last-child{
+            width: 100px;
+            top: 100px;
+            left: 980px;
+        }
+        .menu li:hover{
+            background-color: rgb(197, 82, 10);
+        }
+        li:hover>a{
+            color: rgb(146, 165, 23);
+            font-style:italic;
+        }
+
+        .content{
+            height: 500px;
+            width: 1089px;
+            background-color: rgb(253, 249, 251);
+        }
+        aside{
+            left: 10px;
+            height: 100%;
+            width: 70%;
+            float: left;
+            position: relative;
+        }
+        section{
+            height: 100%;
+            width: 30%;
+            background-color: #E6E6FA;
+            float: right;
+            
+        }
+            
+        footer{
+            position: fixed;
+            height: 40px;
+            width: 1089px;
+            background-color:#294279;
+            display: block;
+            bottom: 0px;
+        }
+        .mail{
+            position: absolute;
+            top: 133px;
+            left: 200px;
+        }
+        .thongtin{
+            left: 400px;
+            top: 50px;
+            position: absolute;
+            height:400px ;
+            width: 350px;
+            font-size: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <img src="../img/logo.png" alt="">
+                
+            </div>
+            <div class="ten">
+                <h1>FlowerBox 360</h1>
+                <p>...to get your daily dose of luxury roses!</p>
+            </div>
+            
+            <div class="timkiem">
+            <form action="/search">
+                <input type="text" placeholder="Seach the site...">
+                <button type="submit" style="margin: 10px;">GO</button>
+              </form>
+            </div>
+            <ul class="top-menu">
+                <li><a href="">Home </a></li>
+                <li><a href="">Promotion</a></li>
+                <li><a href="">Gift Baskets </a></li>
+                    <!-- <ul class="sub-menu">
+                        <li><a href="">Item 1</a></li>
+                        <li><a href="">Item 2</a></li>
+                        <li><a href="">Item 3</a></li>
+                    </ul> -->
+                <li><a href="">Flower Services </a></li>
+                <li><a href="">About </a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <aside>
+                <div class="form" >
+                    <h3>Why Not Contact Us Today!</h3>
+                    <br>
+                    <hr style="border:dotted">
+                    <br>
+                    <p style="color: red; ">
+                    For FlowerBox 360 shoppers, that means not only
+                    <br>can you send your friends and loved ones the 
+                    <br>highest quality flowers found on online, but that you 
+                    <br>can do so at a great value.
+                </p>
+                
+                <td>Name:</td> <br>
+                <input type="text"> <br>
+                <td>Telephone:</td> <br>
+                <input type="text"> <br>
+                <div class="mail">
+                    <td>Email:</td> <br>
+                    <input type="text"> <br>
+                    <td>Subject:</td>  <br>
+                    <input type="text">
+                    </div>
+                </div>
+               <td>Messege:</td> <br>
+               <input type="text" style="height: 100px; width:365px;"> <br>
+               <br>
+                <input type="submit" value="Submit ">
+                <input type="reset" value="Reset">
+                
+            <div class="thongtin">
+                <h3>FlowerBox 360 Info!</h3>
+                <br>
+                <hr style="border: dashed;">
+                <p>Operating Hours: 
+                <br>Monday-Friday: 9.00am-5.00pm. 
+                <br>Saturday:9.00am-1.00pm. 
+                <br>Sunday: Closed (No Deliveries) 
+                <br>ORDER ONLINE 24/7</p>
+                <br>
+                <br>
+                <p>Software Engineering Dept. 
+                    <br>Information Technology in cuty
+                    <br> First Floor, H Building</p>  
+                <br>
+                <br>
+                <p>12 Nguyen Van Bao St., Ward 4 
+                    <br>Go Vap District Ho Chi Minh City 
+                    <br>Tel: 0283 8940 390 <br>Fax: 0283.9940 954</p>
+            </div>
+            </aside>
+            <section>
+                <h3>Discounts & Specials</h3>
+                <br><hr style="border: dotted;">
+                <img src="../img/hoa.png " style="width: 320px; " alt="">
+                <p style="font-size: 20px;">FlowerBox 360 offers many great discounts through (ut the year, from coupons and coupon codes, to promo codes and other savings. We also offer military flower discounts to our wonderful troops!   </p>
+               <a href="#" style="text-decoration: none; position: absolute;left:  1089px; ">Readmore>></a>
+            </section>
+        </div>
+        <footer>
+            <p>Coppyright 2017-All Right Reserved- Software Engineering Department- Industrial University of Ho Chi Minh City</p>
+        </footer>
+    </div>
+</body>
+</html>
