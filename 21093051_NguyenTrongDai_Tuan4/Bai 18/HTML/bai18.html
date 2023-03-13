@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          background-color: green;
+        }
+        
+        nav li {
+          position: relative;
+        }
+        
+        nav a {
+          display: block;
+          padding: 0.75rem 1.5rem;
+          text-decoration: none;
+          color: #faf5f5;
+        }
+        
+        nav > ul > li {
+          display: inline-block;
+        }
+        
+        nav > ul > li > a {
+          border-right: 1px solid green;
+        }
+        
+        nav > ul > li:last-child > a {
+          border-right: none;
+        }
+        
+        nav li ul {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          display: none;
+          z-index: 1;
+        }
+        
+        nav li:hover ul {
+          display: block;
+        }
+        
+        nav li ul li {
+          width: 200px;
+          white-space: nowrap;
+        }
+        
+        nav li ul a {
+          background-color: green;
+          color: #f3f2f2;
+        }
+        
+        nav li ul a:hover {
+          background-color: green;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+      <ul>
+        <li><a href="#"> Home</a></li>
+        <li><a href="#">About</a></li>
+        <li>
+          <a href="#">Products</a>
+          <ul>
+            <li><a href="#">Engineering</a></li>
+            <li><a href="#">Telecom</a></li>
+            <li><a href="#">Enery </a></li>
+            <li><a href="#">Finace</a></li>
+            <li><a href="#">Consultancy</a></li>
+            
+          </ul>
+        </li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+.container{
+    background-color: rgb(239, 238, 235);
+    width: 40%;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 4px 4px 30px 4px;
+    margin-top: 50px;
+
+}
+p{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.footer{
+    
+    position: fixed; 
+    bottom:0; display:block; 
+    width:40%; 
+    background-color: green; 
+    color: #fff;
+}

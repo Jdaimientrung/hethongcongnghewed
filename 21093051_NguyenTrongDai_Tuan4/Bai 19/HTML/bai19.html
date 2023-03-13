@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0px auto;
+            padding: auto;
+        }
+       .wrapper{
+            height: 700px;
+            width: 1089px;
+            background-color: antiquewhite;
+        }
+        nav{
+            height:50px;
+            width: 100%;
+            background-color: white;
+        
+        }
+        .menu_top li{
+            background-color: rgb(52, 57, 52);
+            list-style: none;
+            height: 50px;
+            width: 20%;
+           
+            line-height: 50px;
+            text-indent: 20px;
+            float: left;
+            text-align: center;
+           
+
+        }
+        li a{
+            text-decoration: none;
+            font-weight: bolder;
+            color: rgb(241, 229, 229);
+        }
+        .menu_top li:hover{
+            
+            background-color: rgb(14, 116, 16);
+        }
+        li:hover>a{
+            color: rgb(41, 151, 114);
+        }
+        
+        /* .sub_menu{
+            position: absolute;
+
+        }     */
+    
+        li .sub_menu{
+            display:none
+        }
+        li:hover >.sub_menu{
+            display:block;
+            position: absolute;
+            
+
+        } 
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul class="menu_top">
+                <li><a href="">Home</a></li>
+                <li><a href="">Introdution>></a></li>
+                <li><a href="">Portfolio>></a>
+                    <ul class="sub_menu">
+                        <li><a href="">Photography</a></li>
+                        <li><a href="">Web & user Interface Design</a></li>
+                        <li><a href="">IIlustration</a></li>
+                    </ul>
+                </li>
+                    <li><a href="">News</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>

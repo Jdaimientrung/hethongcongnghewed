@@ -1,0 +1,33 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .item {
+    position: relative;
+  }
+  
+  .item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .item:hover img {
+    transform: scale(1.2);
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+  }
+  

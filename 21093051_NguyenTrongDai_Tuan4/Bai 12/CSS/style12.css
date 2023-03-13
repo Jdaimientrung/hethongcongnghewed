@@ -1,0 +1,22 @@
+.ribbon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100px;
+    transform: rotate(-45deg);
+  }
+  
+  .title {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.3);
+  }
+  

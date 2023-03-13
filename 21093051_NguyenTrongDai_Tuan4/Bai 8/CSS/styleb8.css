@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+.container{
+    background-color:rgb(244, 239, 239);
+    width: 90%;
+    margin-top: 50px; 
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 30px 3px;
+}
+.a{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+h1{
+    margin-left: 10px;
+}
+.content{
+    width: 80%;
+    height: 150px;
+    border-style: solid;
+    border-width: 10px;
+    margin-top: 30px;
+    border-color: green yellow blue pink;
+}

@@ -1,0 +1,29 @@
+.transition{ 
+    width:300px; 
+    height:170px; 
+    opacity:0.8;
+    transition: all 2s linear; 
+    text-align:justify; 
+    border-bottom: dashed; 
+    border-right:dashed;
+    border-color:red; 
+    background: #6FAC21; 
+    border-radius: 10px; 
+    margin:50px 50px; 
+    border-left:double; 
+    border-top: double;
+}
+#transition{ 
+    color: white; 
+    font-size: 15px; 
+    text-align: justify; 
+    line-height: 16px; 
+    transition: all 2s; } 
+.transition:hover{ 
+    transform: scale (2) rotate (360deg); 
+    -webkit-transform: scale (2) rotate (360deg); 
+    -mos-transform: scale (2) rotate (360deg); 
+    -o-transform: scale (2) rotate(360deg); 
+    -ms-transfoem: scale (2) rotate(360deg); 
+    background: #1EC7E6; opacity: 0.8;
+}
