@@ -11,9 +11,9 @@
             margin: 0px auto;
         }
         .wrapper{
-            height: 820px;
+            height: 840px;
             width: 1089px;
-            background-color: ;
+            /* background-color:  */
             border: 5px solid;
         }
         header{
@@ -22,7 +22,7 @@
             background-color: rgb(132, 51, 51);
         }
         h1{
-            position: absolute;
+            position: relative;
             margin-top: 20px;
             font-size: 70px;
             color: rgb(98, 137, 14);
@@ -81,7 +81,7 @@
         footer{
             height: 50px;
             width: 100%;
-            background-color: aqua;
+         
         }
         .top_menu li{
             height: 50Px;
@@ -90,12 +90,14 @@
             line-height: 45px;
             text-indent: 20px;
             list-style: none;
+            background-color: white     ;
         }
         li a{
             text-decoration: none;
             font-weight: bolder;
             color: rgb(180, 130, 37);
             font-size: 20px;
+           
         }
         .top_menu li:hover{
             background-color: rgb(132, 51, 51);
@@ -104,13 +106,58 @@
             color: aliceblue;
             font-style: italic;
         }
+        .submenu li{
+            display: none;
+            position: relative;
+            height: 50px;
+            width: 200px;
+
+        }
+        .top_menu li:hover .submenu li {
+            display: block;
+        }
+        
         h2{
             position: relative;
             left: 20px;
             color: rgb(180, 130, 37);
             font-size: 35px;
         }
+        .email, .password, .username{
+            position:relative;
+            margin:25px 0;
+        }
+        .floating-label {
+            position: absolute;
+            left:0px;
+            top: 10px;
+            font-size:15px;
+            color:#B3BBCE;
 
+        }
+        .inputText {
+  
+            font-size: 12px;
+            width:80%;
+            height:40px;
+            border:none;
+            border-bottom:1px solid #B3BBCE;
+            outline:none;
+            color: #000000;
+            font-weight:900;
+        }
+        .nut{
+            height:35px ;
+            width: 150px;
+            background-color: rgb(124, 124, 21) ;
+            border-radius: 5px;
+            border: none;
+            transition: all 0.3s ease-in-out;
+            color: white;
+        }
+        .nut:hover {
+            transform: scale(1.1);
+        }
     </style>
 </head>
 <body>
@@ -125,10 +172,10 @@
                 <li><a href="">Products</a></li>
                 <li>
                     <a href="">Service</a>
-                    <!-- <ul class="submenu">
+                    <ul class="submenu">
                         <li><a href="">Our services</a></li>
                         <li><a href="">Third party sevrices</a></li>
-                    </ul> -->
+                    </ul>
                 </li>
                 <li><a href="">Order</a></li>
             </ul>
@@ -141,7 +188,25 @@
                 <h2>Sign up for membership benefits</h2>
             <div class="form">
                 <p style="font-size: 22px; color: rgb(208, 148, 37);">Our philosophical values are transparency, respect, formality  and responsibility. Our  stimulus is your enthusiasm. Our  motto is your satisfaction.</p>
-                
+                <div class="username">
+                    <input type="text" class="inputText"/>
+                    <span class="floating-label">User Name</span>
+                  </div>
+                  <div class="email">
+                    <input type="text" class="inputText"/>
+                    <span class="floating-label">E-mail </span>
+                  </div>
+                  <div class="password">
+                    <input type="text" class="inputText"/>
+                    <span class="floating-label">Password </span>
+                  </div>
+                  <div class="password">
+                    <input type="text" class="inputText"/>
+                    <span class="floating-label">Retype Password </span>
+                  </div>
+                  <button class="nut">SIGN ME UP</button>
+                  
+
             </div>
             </div>
             <div class="c2">
@@ -158,9 +223,9 @@
                 </div>  
                 <div class="moreinfo">
                     <h2>More Info</h2>
-                    <img style="width: 70px;height: 40px; border: 1px soild black; padding: 10px;" src="../img/la.png" alt="anh loi">  
+                    <img style="width: 70px;height: 40px; border: 1px soild black; padding: 10px; float: left;" src="../img/la.png" alt="anh loi">  
 
-                    <p>Our purpose is the client who gives to us the opportunity to serve and to make known the around the world. reality</p>       
+                    <p>Our purpose is the client who gives to us the opportunity to serve and to make known the reality around the world. </p>       
                 </div>
             </div>
         </div>
